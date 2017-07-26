@@ -124,3 +124,9 @@ console.log(greet("Kevin"));
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
+
+function madlib(a, b, c, d) {
+    return "I live in " + a + " and I'm a big fan of " + b + " although they can be a bit " + c + " much like those pesky " + d + ".";
+}
+
+console.log(madlib("Zimbabwe", "bonobos", "obsequious", "chimps"));
